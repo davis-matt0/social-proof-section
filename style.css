@@ -11,6 +11,90 @@ html {
 body {
   margin: 0;
   font-family: "League Spartan", sans-serif;
+  background-image: url("./images/bg-pattern-top-mobile.svg"),
+    url("./images/bg-pattern-bottom-mobile.svg");
+  background-size: cover;
+  color: hsl(300, 43%, 22%);
+}
+
+.intro-title {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.intro-body {
+  line-height: 1.5;
+  font-size: 1.13rem;
+  margin-bottom: 2em;
+}
+
+.rating-body {
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin-bottom: 0;
+}
+
+.reviewer-name,
+.review-body {
+  color: white;
+}
+
+.reviewer-verified {
+  color: hsl(333, 80%, 67%);
+  margin-top: 0.5em;
+}
+
+.reviewer-name {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+}
+
+.review-body {
+  line-height: 1.2;
+  font-size: 1.125rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 2em auto 0 auto;
+}
+
+.intro {
+  text-align: center;
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  text-align: center;
+  padding: 0.75em 0;
+  margin-bottom: 1.25em;
+  border-radius: 0.5em;
+}
+
+.star {
+  width: 20px;
+}
+
+.review {
+  background-color: hsl(300, 43%, 22%);
+  padding: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+}
+
+.reviewer-info {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.reviewer-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
 }
 
 .attribution {
